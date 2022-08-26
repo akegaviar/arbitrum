@@ -25,8 +25,8 @@ import "../bridge/Outbox.sol";
 import "./RollupEventBridge.sol";
 import "./BridgeCreator.sol";
 
-import "@openzeppelin/contracts/proxy/ProxyAdmin.sol";
-import "@openzeppelin/contracts/proxy/TransparentUpgradeableProxy.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.7/contracts/proxy/transparent/ProxyAdmin.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.7/contracts/proxy/transparent/TransparentUpgradeableProxy.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 import "./Rollup.sol";

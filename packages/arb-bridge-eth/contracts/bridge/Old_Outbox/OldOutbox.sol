@@ -28,8 +28,8 @@ import "../../libraries/MerkleLib.sol";
 import "../../libraries/BytesLib.sol";
 import "../../libraries/Cloneable.sol";
 
-import "@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol";
-import "@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.7/contracts/proxy/beacon/BeaconProxy.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.7/contracts/proxy/beacon/UpgradeableBeacon.sol";
 
 contract OldOutbox is IOutbox, Cloneable {
     using BytesLib for bytes;

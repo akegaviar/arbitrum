@@ -2,8 +2,8 @@
 // solhint-disable-next-line compiler-version
 pragma solidity >=0.6.0 <0.8.0;
 
-import "@openzeppelin/contracts/proxy/BeaconProxy.sol";
-import "@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.7/contracts/proxy/beacon/BeaconProxy.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.7/contracts/proxy/beacon/UpgradeableBeacon.sol";
 import "@openzeppelin/contracts/utils/Create2.sol";
 
 interface ProxySetter {

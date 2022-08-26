@@ -18,7 +18,7 @@
 
 pragma solidity ^0.6.11;
 
-import "@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.7/contracts/proxy/beacon/UpgradeableBeacon.sol";
 import "@openzeppelin/contracts/utils/Create2.sol";
 import "./L2ArbitrumGateway.sol";
 import "../StandardArbERC20.sol";

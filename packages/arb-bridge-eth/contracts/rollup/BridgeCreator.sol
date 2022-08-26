@@ -26,7 +26,7 @@ import "./RollupEventBridge.sol";
 
 import "../bridge/interfaces/IBridge.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/proxy/ProxyAdmin.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.7/contracts/proxy/transparent/ProxyAdmin.sol";
 import "../libraries/Whitelist.sol";
 
 contract BridgeCreator is Ownable {

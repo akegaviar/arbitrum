@@ -20,8 +20,8 @@ pragma solidity ^0.6.11;
 
 import "./Challenge.sol";
 import "./IChallengeFactory.sol";
-import "@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol";
-import "@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.7/contracts/proxy/beacon/BeaconProxy.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.7/contracts/proxy/beacon/UpgradeableBeacon.sol";
 
 contract ChallengeFactory is IChallengeFactory {
     IOneStepProof[] public executors;

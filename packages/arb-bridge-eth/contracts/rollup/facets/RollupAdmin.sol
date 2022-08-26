@@ -8,7 +8,7 @@ import "../../bridge/interfaces/IOutbox.sol";
 import "../../bridge/interfaces/ISequencerInbox.sol";
 import "../../libraries/Whitelist.sol";
 
-import "@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.7/contracts/proxy/beacon/UpgradeableBeacon.sol";
 
 contract RollupAdminFacet is RollupBase, IRollupAdmin {
     /**
