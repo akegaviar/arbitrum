@@ -21,7 +21,7 @@ pragma solidity ^0.6.11;
 import "./Node.sol";
 import "./INodeFactory.sol";
 
-import "@openzeppelin/contracts/proxy/BeaconProxy.sol";
+import "@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol";
 import "@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol";
 
 contract NodeFactory is INodeFactory {

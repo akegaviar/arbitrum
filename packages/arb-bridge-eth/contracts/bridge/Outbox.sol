@@ -26,7 +26,7 @@ import "../libraries/MerkleLib.sol";
 import "../libraries/BytesLib.sol";
 import "../libraries/Cloneable.sol";
 
-import "@openzeppelin/contracts/proxy/BeaconProxy.sol";
+import "@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol";
 import "@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol";
 
 contract Outbox is IOutbox, Cloneable {
