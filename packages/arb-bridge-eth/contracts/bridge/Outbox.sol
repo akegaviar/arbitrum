@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-pragma solidity ^0.6.11;
+pragma solidity >=0.6.9 <0.9.0;
 
 import "./interfaces/IOutbox.sol";
 import "./interfaces/IBridge.sol";
