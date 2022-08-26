@@ -22,7 +22,7 @@ import "./Node.sol";
 import "./INodeFactory.sol";
 
 import "@openzeppelin/contracts/proxy/BeaconProxy.sol";
-import "@openzeppelin/contracts/proxy/UpgradeableBeacon.sol";
+import "@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol";
 
 contract NodeFactory is INodeFactory {
     UpgradeableBeacon public beacon;
